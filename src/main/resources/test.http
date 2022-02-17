@@ -1,0 +1,25 @@
+POST localhost:8080/hotel/add
+Content-Type: application/json
+
+{
+  "name": "Hilton"
+}
+###
+GET localhost:8080/hotel
+###
+POST localhost:8080/room/add
+Content-Type: application/json
+
+{
+  "number":11,
+  "floor":1,
+  "size": 4,
+  "hotelId": 1
+}
+###
+GET localhost:8080/room/hotel
+Content-Type: application/json
+
+{
+  1
+}
